@@ -1,0 +1,192 @@
+.wrapper {
+  height: 1000px;
+  background-image: url(../img/header.png);
+  background-position: center;
+  background-size: cover; }
+  .wrapper header {
+    height: 80px;
+    padding: 40px 215px 0 215px; }
+    .wrapper header > * {
+      display: inline-block; }
+    .wrapper header span {
+      font-family: Montserrat;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: left; }
+    .wrapper header a {
+      text-decoration: none; }
+    .wrapper header .navigation {
+      float: right; }
+      .wrapper header .navigation nav {
+        width: 430px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px; }
+        .wrapper header .navigation nav a, .wrapper header .navigation nav:visited {
+          font-family: Montserrat;
+          color: #ffffff;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none; }
+          .wrapper header .navigation nav a:hover, .wrapper header .navigation nav:visited:hover {
+            color: #fce38a;
+            border-bottom: 1px solid #fce38a; }
+          .wrapper header .navigation nav a:nth-child(6), .wrapper header .navigation nav a:nth-child(7), .wrapper header .navigation nav:visited:nth-child(6), .wrapper header .navigation nav:visited:nth-child(7) {
+            border-bottom: none; }
+  .wrapper .promo {
+    padding: 80px 0 210px 0;
+    text-align: center;
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0; }
+    .wrapper .promo p {
+      font-family: KaushanScript;
+      color: #ffffff;
+      font-size: 72px;
+      font-weight: 400;
+      text-align: center; }
+    .wrapper .promo span {
+      font-family: Montserrat;
+      color: #ffffff;
+      font-size: 150px;
+      font-weight: 700;
+      line-height: 140px;
+      text-align: center;
+      text-transform: uppercase; }
+    .wrapper .promo .str {
+      background-color: #ffffff;
+      width: 60px;
+      height: 3px;
+      margin: 0 auto;
+      padding: 0;
+      margin-top: 70px;
+      margin-bottom: 50px; }
+    .wrapper .promo .btn {
+      width: 150px;
+      height: 30px;
+      border: 2px solid #ffffff;
+      text-align: center;
+      padding: 10px 10px 0 10px; }
+    .wrapper .promo a {
+      display: inline-block;
+      font-family: Montserrat;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      user-select: none;
+      text-align: center;
+      margin: 0 auto; }
+      .wrapper .promo a:hover {
+        background-color: #f39367; }
+
+.about p {
+  font-family: KaushanScript;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center; }
+  .about p:first-child {
+    padding-top: 90px; }
+
+.about .p-about {
+  font-family: Montserrat;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center; }
+
+.about div:nth-child(2) {
+  background-color: #f38181;
+  width: 60px;
+  height: 3px;
+  margin: 0 auto; }
+
+.about .about-text {
+  max-width: 900px;
+  margin: 0 auto; }
+  .about .about-text p {
+    font-family: Roboto;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 20px; }
+
+.about .about-img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin: 0 auto; }
+
+.about img {
+  width: 300px;
+  height: 220px;
+  margin-top: 100px;
+  opacity: 1; }
+  .about img:hover {
+    box-shadow: 1px 1px #53ea93, 2px 2px #53ea93, 3px 3px #53ea93, 4px 4px #53ea93, 5px 5px #53ea93, 6px 6px #53ea93, 7px 7px #53ea93;
+    transform: translateX(-7px);
+    opacity: 0.3; }
+
+.num {
+  margin-top: 110px;
+  background-color: #95e1d3;
+  height: 220px; }
+  .num .num-items {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .num .num-items > div {
+      border-left: 1px solid #ffffff;
+      height: 270px;
+      width: 360px;
+      text-align: center;
+      padding-top: 40px; }
+      .num .num-items > div p {
+        font-family: Montserrat;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase; }
+      .num .num-items > div span {
+        font-family: Montserrat;
+        color: #ffffff;
+        font-size: 72px;
+        font-weight: 700;
+        text-align: center; }
+      .num .num-items > div:last-child {
+        border-right: 1px solid #ffffff; }
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.otf); }
+
+@font-face {
+  font-family: KaushanScript;
+  src: url(../fonts/KaushanScript-Regular.otf); }
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%; }
+
+.container {
+  max-width: 75%;
+  margin: 0 auto; }
+
+.services-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .services-items div {
+    width: 300px; }

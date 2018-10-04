@@ -1,0 +1,114 @@
+.wrapper {
+  height: 1000px;
+  background-image: url(../img/header.png);
+  background-position: center;
+  background-size: cover;
+  // overflow: hidden;
+  header {
+    height: 80px;
+    padding: 40px 215px 0 215px;
+
+    & > * {
+      display: inline-block;
+    }
+    span {
+      font-family: Montserrat;
+      color: #ffffff;
+      font-size: 30px;
+      font-weight: 700;
+      text-align: left;
+    }
+    a {
+      text-decoration: none;
+    }
+    .navigation {
+      float: right;
+
+      nav {
+        width: 430px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+        a,
+        &:visited {
+          font-family: Montserrat;
+          color: #ffffff;
+          font-size: 14px;
+          font-weight: 400;
+          text-align: center;
+          text-transform: uppercase;
+          text-decoration: none;
+          &:hover {
+            color: #fce38a;
+            border-bottom: 1px solid #fce38a;
+          }
+          &:nth-child(6),
+          &:nth-child(7) {
+            border-bottom: none;
+          }
+        }
+      }
+    }
+  }
+  .promo {
+    padding: 80px 0 210px 0;
+    text-align: center;
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    padding: 0;
+    // display: block;
+
+    & p {
+      font-family: KaushanScript;
+      color: #ffffff;
+      font-size: 72px;
+      font-weight: 400;
+      text-align: center;
+    }
+    span {
+      font-family: Montserrat;
+      color: #ffffff;
+      font-size: 150px;
+      font-weight: 700;
+      line-height: 140px;
+      text-align: center;
+      text-transform: uppercase;
+    }
+
+    .str {
+      background-color: #ffffff;
+      width: 60px;
+      height: 3px;
+      margin: 0 auto;
+      padding: 0;
+      margin-top: 70px;
+      margin-bottom: 50px;
+    }
+    .btn {
+      width: 150px;
+      height: 30px;
+      border: 2px solid #ffffff;
+      text-align: center;
+      padding: 10px 10px 0 10px;
+    }
+    a {
+      display: inline-block;
+      font-family: Montserrat;
+      color: #ffffff;
+      font-size: 14px;
+      font-weight: 700;
+      text-align: center;
+
+      text-decoration: none;
+      text-transform: uppercase;
+      user-select: none;
+      text-align: center;
+      margin: 0 auto;
+      &:hover {
+        background-color: #f39367;
+      }
+    }
+  }
+}

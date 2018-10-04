@@ -1,0 +1,57 @@
+.about {
+  p {
+    font-family: KaushanScript;
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    &:first-child {
+      padding-top: 90px;
+    }
+  }
+  .p-about {
+    font-family: Montserrat;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  div:nth-child(2) {
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+  }
+  .about-text {
+    max-width: 900px;
+    margin: 0 auto;
+
+    & p {
+      font-family: Roboto;
+      color: #999999;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      padding-top: 20px;
+    }
+  }
+  .about-img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin: 0 auto;
+  }
+  img {
+    width: 300px;
+    height: 220px;
+    margin-top: 100px;
+    // margin-right: 10px;
+    opacity: 1;
+    &:hover {
+      box-shadow: 1px 1px #53ea93, 2px 2px #53ea93, 3px 3px #53ea93,
+        4px 4px #53ea93, 5px 5px #53ea93, 6px 6px #53ea93, 7px 7px #53ea93;
+      transform: translateX(-7px);
+      opacity: 0.3;
+    }
+  }
+}

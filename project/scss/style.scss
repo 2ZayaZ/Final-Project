@@ -1,0 +1,33 @@
+@import "header";
+@import "about";
+@import "num";
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: KaushanScript;
+  src: url(../fonts/KaushanScript-Regular.otf);
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
+.services-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  div {
+    width: 300px;
+  }
+}

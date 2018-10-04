@@ -1,0 +1,37 @@
+.num {
+  margin-top: 110px;
+  background-color: #95e1d3;
+  height: 220px;
+  .num-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > div {
+      border-left: 1px solid #ffffff;
+      height: 270px;
+      width: 360px;
+      text-align: center;
+      padding-top: 40px;
+
+      p {
+        font-family: Montserrat;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      span {
+        font-family: Montserrat;
+        color: #ffffff;
+        font-size: 72px;
+        font-weight: 700;
+        text-align: center;
+      }
+      &:last-child {
+        border-right: 1px solid #ffffff;
+      }
+    }
+  }
+}
