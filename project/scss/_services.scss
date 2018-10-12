@@ -1,0 +1,61 @@
+.services-items {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .services-item-1 {
+    padding: 30px 20px 40px 5px;
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #dfd7d7;
+    &:nth-child(5),
+    &:nth-child(6),
+    &:last-child {
+      border-bottom: none;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .services-item-1-img {
+      padding-right: 20px;
+    }
+    p {
+      font-family: Montserrat;
+      color: #333333;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+    }
+    span {
+      font-family: Roboto;
+      color: #999999;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+    }
+  }
+}
+
+.devices {
+  background-image: url(../img/ppp.jpg);
+  height: 850px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+
+  .devices-image {
+    position: absolute;
+    top: 57%;
+    left: 58.5%;
+    padding-bottom: 70px;
+  }
+}

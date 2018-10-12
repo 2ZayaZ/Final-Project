@@ -1,6 +1,10 @@
 @import "header";
 @import "about";
 @import "num";
+@import "services";
+@import "select";
+@import "slider";
+@import "footer";
 
 @font-face {
   font-family: Montserrat;
@@ -22,12 +26,60 @@ body {
   margin: 0 auto;
 }
 
-.services-items {
+.select {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  div {
-    width: 300px;
+  padding: 100px 0 100px 0;
+
+  .select-image {
+    width: 460px;
+
+    overflow: hidden;
+  }
+  .select-items {
+    width: 460px;
+    overflow: hidden;
+
+    .select-item-1 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border: 1px solid rgb(236, 231, 231);
+      padding: 10px;
+      margin-bottom: 10px;
+
+      .empty {
+        width: 200px;
+      }
+      .main-item:focus ~ .sub-menu,
+      .main-item:active ~ .sub-menu {
+        display: block;
+      }
+      p {
+        font-family: Montserrat;
+        color: #333333;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+      }
+      span {
+        font-family: Roboto;
+        color: #999999;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+      }
+    }
+    .sub-menu {
+      display: none;
+      border-top: 1px solid rgb(236, 231, 231);
+      padding: 10px;
+      overflow: auto;
+      height: 150px;
+      scrollbar-track-color: aqua;
+    }
   }
 }

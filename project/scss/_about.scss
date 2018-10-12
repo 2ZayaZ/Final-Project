@@ -38,19 +38,23 @@
   .about-img {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    padding-top: 100px;
     margin: 0 auto;
+
+    // a:hover {
+    //   box-shadow: 5px 5px #53ea93, 6px 6px #53ea93, 7px 7px #53ea93,
+    //     8px 8px #53ea93, 9px 9px #53ea93, 10px 10px #53ea93, 11px 11px #53ea93;
+    //   transform: translateX(-12px) translateY(-7px);
+    // }
   }
   img {
     width: 300px;
     height: 220px;
-    margin-top: 100px;
-    // margin-right: 10px;
     opacity: 1;
     &:hover {
-      box-shadow: 1px 1px #53ea93, 2px 2px #53ea93, 3px 3px #53ea93,
-        4px 4px #53ea93, 5px 5px #53ea93, 6px 6px #53ea93, 7px 7px #53ea93;
-      transform: translateX(-7px);
+      box-shadow: 5px 5px #53ea93, 6px 6px #53ea93, 7px 7px #53ea93,
+        8px 8px #53ea93, 9px 9px #53ea93, 10px 10px #53ea93, 11px 11px #53ea93;
+      transform: translateX(-12px) translateY(-7px);
       opacity: 0.3;
     }
   }
